@@ -1,5 +1,4 @@
-// snippet
-//rfc
+// snippet  rfc
 import React, { useMemo } from "react";
 
 import { useTable } from "react-table";
