@@ -1,4 +1,3 @@
-// snippet
 import React, { useMemo } from "react";
 
 import { useTable,useSortBy } from "react-table";
