@@ -8,9 +8,7 @@ import "./table.css";
 import {Checkbox} from "./Checkbox"
 
 export const ColumnHidingTable = () => {
-  //use table hooks
-  //reuse to do something ever time
-  //for single column
+  //use table hooks reuse to do something ever time for single column
   const columns = useMemo(() => COLUMNS, []);
   // for group column
   // const columns = useMemo(() => GROUP_COLUMNS, []);
