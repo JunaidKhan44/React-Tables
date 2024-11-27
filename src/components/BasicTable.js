@@ -7,9 +7,7 @@ import { COLUMNS,GROUP_COLUMNS } from "./columns";
 import "./table.css";
 
 export const BasicTable = () => {
-  //use table hooks
-  //reuse to do something ever time
-  //for single column
+  //use table hooks reuse to do something ever time for single column
   const columns = useMemo(() => COLUMNS, []);
   // for group column
   // const columns = useMemo(() => GROUP_COLUMNS, []);
