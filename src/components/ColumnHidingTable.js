@@ -22,7 +22,6 @@ export const ColumnHidingTable = () => {
   //     columns,
   //     data,
   //   });
-
   const {
     getTableProps,
     getTableBodyProps,
